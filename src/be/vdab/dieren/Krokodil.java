@@ -11,8 +11,8 @@ public class Krokodil extends Reptiel{
 
     public Krokodil(String naam, BigDecimal lengteInMeter, BigDecimal gewichtInKilo) {
         super();
-        this.lengteInMeter = lengteInMeter;
-        this.gewichtInKilo = gewichtInKilo;
+        setLengteInMeter(lengteInMeter);
+        setGewichtInKilo(gewichtInKilo);
         this.naam = naam;
     }
 
@@ -28,7 +28,9 @@ public class Krokodil extends Reptiel{
     public final void setLengteInMeter(BigDecimal lengteInMeter) {
         if (lengteInMeter.compareTo(BigDecimal.ZERO) > 0) {
             this.lengteInMeter = lengteInMeter;
-        } throw new IllegalArgumentException("Lengte moet een positief getal zijn!");
+        } else {
+            throw new IllegalArgumentException("Lengte moet een positief getal zijn!");
+        }
     }
 
     public BigDecimal getGewichtInKilo() {
@@ -38,7 +40,9 @@ public class Krokodil extends Reptiel{
     public final void setGewichtInKilo(BigDecimal gewichtInKilo) {
         if (gewichtInKilo.compareTo(BigDecimal.ZERO) > 0) {
             this.gewichtInKilo = gewichtInKilo;
-        } throw new IllegalArgumentException("Gewicht moet een positief getal zijn!");
+        } else {
+            throw new IllegalArgumentException("Gewicht moet een positief getal zijn!");
+        }
     }
 
 

@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92f0b76-79df-4751-95fa-010621e44694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooKeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Amfibie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/GewerveldeDier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Kikker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Krokodil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Mens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Reptiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Struisvogel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Vis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Vogel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Zalm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Zoogdier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/main/ZooApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/Huidbedekking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/Milieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/RijksregisternummerNietGeldigException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/RijksregisternummerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/TypeWater.java" afterDir="false" />
+    <list default="true" id="c92f0b76-79df-4751-95fa-010621e44694" name="Changes" comment="Kenneth, &#10;Toch ben ik thuis gebleven, ik was er bijna :)&#10;De constructie .map(dier -&gt; (Krokodil) dier), wat lijkt simpel te zijn &#10;heeft mij veel tijd gekost. Ik ben gewoon dat wij of alleen namen, lengtes, &#10;oppervlaktes door .map() kunnen krijgen. Veel opties heb ik geprobeerd, op het Internet opgezocht, toch zelf gevonden !!!!! onverwacht :D&#10;&#10;Bij methode lijstVanAlleDierenNamenGesorteerdOpAlfabet() heb ik enkel de namen laten oplisten, daarom heb ik bij elke niet-abstract class een naam van een dier toegevoegd.&#10;&#10;Ik zie zelf geen fouten, het werkt. Maar als je opmerkingen hebt, hoor ik het graag!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/dieren/Krokodil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/dieren/Krokodil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ZooApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.main.ZooApp" />
@@ -96,6 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678090484219</updated>
     </task>
+    <task id="LOCAL-00001" summary="Kenneth, &#10;Toch ben ik thuis gebleven, ik was er bijna :)&#10;De constructie .map(dier -&gt; (Krokodil) dier), wat lijkt simpel te zijn &#10;heeft mij veel tijd gekost. Ik ben gewoon dat wij of alleen namen, lengtes, &#10;oppervlaktes door .map() kunnen krijgen. Veel opties heb ik geprobeerd, op het Internet opgezocht, toch zelf gevonden !!!!! onverwacht :D&#10;&#10;Bij methode lijstVanAlleDierenNamenGesorteerdOpAlfabet() heb ik enkel de namen laten oplisten, daarom heb ik bij elke niet-abstract class een naam van een dier toegevoegd.&#10;&#10;Ik zie zelf geen fouten, het werkt. Maar als je opmerkingen hebt, hoor ik het graag!">
+      <created>1678128296315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678128296315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Kenneth, &#10;Toch ben ik thuis gebleven, ik was er bijna :)&#10;De constructie .map(dier -&gt; (Krokodil) dier), wat lijkt simpel te zijn &#10;heeft mij veel tijd gekost. Ik ben gewoon dat wij of alleen namen, lengtes, &#10;oppervlaktes door .map() kunnen krijgen. Veel opties heb ik geprobeerd, op het Internet opgezocht, toch zelf gevonden !!!!! onverwacht :D&#10;&#10;Bij methode lijstVanAlleDierenNamenGesorteerdOpAlfabet() heb ik enkel de namen laten oplisten, daarom heb ik bij elke niet-abstract class een naam van een dier toegevoegd.&#10;&#10;Ik zie zelf geen fouten, het werkt. Maar als je opmerkingen hebt, hoor ik het graag!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kenneth, &#10;Toch ben ik thuis gebleven, ik was er bijna :)&#10;De constructie .map(dier -&gt; (Krokodil) dier), wat lijkt simpel te zijn &#10;heeft mij veel tijd gekost. Ik ben gewoon dat wij of alleen namen, lengtes, &#10;oppervlaktes door .map() kunnen krijgen. Veel opties heb ik geprobeerd, op het Internet opgezocht, toch zelf gevonden !!!!! onverwacht :D&#10;&#10;Bij methode lijstVanAlleDierenNamenGesorteerdOpAlfabet() heb ik enkel de namen laten oplisten, daarom heb ik bij elke niet-abstract class een naam van een dier toegevoegd.&#10;&#10;Ik zie zelf geen fouten, het werkt. Maar als je opmerkingen hebt, hoor ik het graag!" />
   </component>
 </project>
